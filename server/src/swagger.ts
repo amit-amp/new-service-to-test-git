@@ -7,7 +7,7 @@ export const swaggerDocumentOptions = new DocumentBuilder()
   .setDescription(
     '\n\n## Congratulations! Your service resource is ready.\n  \nPlease note that all endpoints are secured with JWT Bearer authentication.\nBy default, your service resource comes with one user with the username "admin" and password "admin".\nLearn more in [our docs](https://docs.amplication.com)'
   )
-  .setVersion("l81xle5j")
+  .setVersion("32b6o043")
   .addBearerAuth()
   .build();
 
