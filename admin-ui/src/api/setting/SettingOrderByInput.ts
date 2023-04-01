@@ -1,8 +1,9 @@
 import { SortOrder } from "../../util/SortOrder";
 
 export type SettingOrderByInput = {
-  id?: SortOrder;
   createdAt?: SortOrder;
+  id?: SortOrder;
+  logs?: SortOrder;
   updatedAt?: SortOrder;
   userId?: SortOrder;
 };
